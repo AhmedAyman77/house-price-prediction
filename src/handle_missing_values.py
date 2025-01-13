@@ -54,7 +54,7 @@ class FillMissingValueStrategy(MissingValueHandlingStrategy):
         logging.info("Missing values filled.")
         return df_cleaned
 
-class MissingValueHandler:
+class MissingValueFillMissingValueStrategyHandler:
     def __init__(self, strategy: MissingValueHandlingStrategy) -> None:
         self.strategy = strategy
     
